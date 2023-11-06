@@ -1,8 +1,5 @@
-module.exports = {
-  // ...
-  exportPathMap: function () {
-    return {
-      '/': { page: '/' },
-    };
-  },
-};
+const nextConfig = {
+  trailingSlash: true,
+  output: 'export',
+  }
+  module.exports = nextConfig
