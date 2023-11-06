@@ -1,11 +1,11 @@
 "use client"
 
-import { Header } from '@/app/components/Header'
-import { ThemeProvider } from './context/ThemeContext'
-import { ThemeButton } from './components/ThemeButton'
-import { Projects } from './components/Projects'
-import { MoveButtons } from './components/MoveButtons'
-import { Contact } from './components/Contact'
+import { Header } from '@/components/Header'
+import { ThemeProvider } from '../context/ThemeContext'
+import { ThemeButton } from '../components/ThemeButton'
+import { Projects } from '../components/Projects'
+import { MoveButtons } from '../components/MoveButtons'
+import { Contact } from '../components/Contact'
 
 
 const Page = () => {
